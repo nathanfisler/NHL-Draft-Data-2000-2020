@@ -42,6 +42,7 @@ position_colors = {'C': 'blue', 'LW': 'green', 'RW': 'red', 'D': 'orange'}
 # INIT DASH APP
 # ---------------------------
 app = Dash(__name__)
+server = app.server
 
 # ---------------------------
 # PREPARE EUROPEAN VS NORTH AMERICAN DATA
